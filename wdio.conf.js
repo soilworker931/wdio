@@ -1,3 +1,5 @@
+const path = require('path');
+
 export const config = {
     //
     // ====================
@@ -57,7 +59,7 @@ export const config = {
         'appium:platformVersion': '11.0',
         'appium:deviceName': 'Pixel 3',
         'appium:automationName': 'UIAutomator2',
-        'appium:app': './app/android/ApiDemos-debug.apk'
+        'appium:app': path.join(__dirname, 'app/android/ApiDemos-debug.apk')
     }],
     //
     // ===================
