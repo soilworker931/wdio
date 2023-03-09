@@ -55,7 +55,7 @@ export const config = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [{
-        'appium:platformName': 'Android',
+        platformName: 'Android',
         'appium:platformVersion': '11.0',
         'appium:deviceName': 'Pixel 3',
         'appium:automationName': 'UIAutomator2',
